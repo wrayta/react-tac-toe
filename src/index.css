@@ -7,21 +7,8 @@ ol, ul {
   padding-left: 30px;
 }
 
-li {
-  display: inline;
-  padding-left: 2px;
-}
-
 li a:focus {
   font-weight: bold;
-}
-
-li:after {
-	content: ", ";
-}
-
-li:last-child:after {
-	content: "";
 }
 
 .board-row:after {
