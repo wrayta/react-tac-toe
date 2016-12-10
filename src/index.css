@@ -7,10 +7,6 @@ ol, ul {
   padding-left: 30px;
 }
 
-li a:focus {
-  font-weight: bold;
-}
-
 .board-row:after {
   clear: both;
   content: "";
@@ -42,6 +38,10 @@ li a:focus {
 
 .kbd-navigation .square:focus {
   background: #ddd;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .game {
